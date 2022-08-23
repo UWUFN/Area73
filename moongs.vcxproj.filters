@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="UE4">
+      <UniqueIdentifier>{8c651f94-04a2-4bc2-9e7c-0ce7f4df2b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detours">
+      <UniqueIdentifier>{afc3517a-0361-4276-82e4-a31042a9541c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FortniteGame">
+      <UniqueIdentifier>{97976bd0-055b-4fa5-97b7-dea4dfa87fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FortniteGame\Abilities">
+      <UniqueIdentifier>{5756ab84-0593-4276-9f82-6e7be54e7cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FortniteGame\ItemDefinitions">
+      <UniqueIdentifier>{f7378d84-217a-4246-ad75-8b7ca836204d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FortniteGame\SDKS">
+      <UniqueIdentifier>{6a8f8d9c-fbab-4247-8cba-96ece03a4c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FortniteGame\SDKS\4_1">
+      <UniqueIdentifier>{8f78fe07-eb57-4826-956f-0b12c799bbd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FortniteGame\SDKS\4_1\SDK">
+      <UniqueIdentifier>{322e7ad6-f084-41ba-b8c9-3b789180770d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FortniteGame\SDKS\3_5">
+      <UniqueIdentifier>{0fe23be8-e353-46b2-a89f-cbe76a904ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FortniteGame\SDKS\3_5\SDK">
+      <UniqueIdentifier>{3d47d2e8-0ed0-4d0c-9adc-e0545841c044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{a9111b57-6ce1-4693-b715-96d487a02ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FortniteGame\SDKS\5_21">
+      <UniqueIdentifier>{c2abd9e1-29cc-4e67-b6bc-3294af5675b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FortniteGame\SDKS\5_21\SDK">
+      <UniqueIdentifier>{d39d54ed-d949-4267-8a6e-e7ff3004a9a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FortniteGame\SDKS\4_5">
+      <UniqueIdentifier>{b1cebe38-9e00-4dd9-824b-ccb21ad12d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FortniteGame\SDKS\4_5\SDK">
+      <UniqueIdentifier>{f505a845-5dfe-49da-96bd-6e8461c11a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FortniteGame\SDKS\7_3">
+      <UniqueIdentifier>{afb57a6c-9d94-4ce2-8b2b-83ed3650af02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FortniteGame\SDKS\7_3\SDK">
+      <UniqueIdentifier>{5806efdd-5c1a-4242-995f-5d88c4665a28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="FortniteGame\SDKS\4_1\SDK\FN_Basic.cpp">
+      <Filter>FortniteGame\SDKS\4_1\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\4_1\SDK\FN_BP_VictoryDrone_functions.cpp">
+      <Filter>FortniteGame\SDKS\4_1\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\4_1\SDK\FN_CoreUObject_functions.cpp">
+      <Filter>FortniteGame\SDKS\4_1\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\4_1\SDK\FN_Engine_functions.cpp">
+      <Filter>FortniteGame\SDKS\4_1\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\4_1\SDK\FN_FortniteGame_functions.cpp">
+      <Filter>FortniteGame\SDKS\4_1\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\4_1\SDK\FN_GameplayAbilities_functions.cpp">
+      <Filter>FortniteGame\SDKS\4_1\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\3_5\SDK\FN_Basic.cpp">
+      <Filter>FortniteGame\SDKS\3_5\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\3_5\SDK\FN_BP_VictoryDrone_functions.cpp">
+      <Filter>FortniteGame\SDKS\3_5\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\3_5\SDK\FN_CoreUObject_functions.cpp">
+      <Filter>FortniteGame\SDKS\3_5\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\3_5\SDK\FN_Engine_functions.cpp">
+      <Filter>FortniteGame\SDKS\3_5\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\3_5\SDK\FN_FortniteGame_functions.cpp">
+      <Filter>FortniteGame\SDKS\3_5\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\3_5\SDK\FN_GameplayAbilities_functions.cpp">
+      <Filter>FortniteGame\SDKS\3_5\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\5_21\SDK\FN_Basic.cpp">
+      <Filter>FortniteGame\SDKS\5_21\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\5_21\SDK\FN_BP_VictoryDrone_functions.cpp">
+      <Filter>FortniteGame\SDKS\5_21\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\5_21\SDK\FN_CoreUObject_functions.cpp">
+      <Filter>FortniteGame\SDKS\5_21\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\5_21\SDK\FN_Engine_functions.cpp">
+      <Filter>FortniteGame\SDKS\5_21\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\5_21\SDK\FN_FortniteGame_functions.cpp">
+      <Filter>FortniteGame\SDKS\5_21\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\5_21\SDK\FN_GameplayAbilities_functions.cpp">
+      <Filter>FortniteGame\SDKS\5_21\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\4_5\SDK\FN_Basic.cpp">
+      <Filter>FortniteGame\SDKS\4_5\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\4_5\SDK\FN_BP_VictoryDrone_functions.cpp">
+      <Filter>FortniteGame\SDKS\4_5\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\4_5\SDK\FN_CoreUObject_functions.cpp">
+      <Filter>FortniteGame\SDKS\4_5\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\4_5\SDK\FN_Engine_functions.cpp">
+      <Filter>FortniteGame\SDKS\4_5\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\4_5\SDK\FN_FortniteGame_functions.cpp">
+      <Filter>FortniteGame\SDKS\4_5\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\4_5\SDK\FN_GameplayAbilities_functions.cpp">
+      <Filter>FortniteGame\SDKS\4_5\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\7_3\SDK\FN_Basic.cpp">
+      <Filter>FortniteGame\SDKS\7_3\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\7_3\SDK\FN_BP_VictoryDrone_functions.cpp">
+      <Filter>FortniteGame\SDKS\7_3\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\7_3\SDK\FN_CoreUObject_functions.cpp">
+      <Filter>FortniteGame\SDKS\7_3\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\7_3\SDK\FN_Engine_functions.cpp">
+      <Filter>FortniteGame\SDKS\7_3\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\7_3\SDK\FN_FortniteGame_functions.cpp">
+      <Filter>FortniteGame\SDKS\7_3\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FortniteGame\SDKS\7_3\SDK\FN_GameplayAbilities_functions.cpp">
+      <Filter>FortniteGame\SDKS\7_3\SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ue4.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h" />
+    <ClInclude Include="hooks.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="patterns.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h" />
+    <ClInclude Include="functions.h" />
+    <ClInclude Include="detours\Detours.h">
+      <Filter>detours</Filter>
+    </ClInclude>
+    <ClInclude Include="FortniteGame\Abilities\Build.h">
+      <Filter>FortniteGame\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FortniteGame\Abilities\Abilities.h">
+      <Filter>FortniteGame\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FortniteGame\Abilities\Edit.h">
+      <Filter>FortniteGame\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FortniteGame\Abilities\DecoTool.h">
+      <Filter>FortniteGame\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FortniteGame\Abilities\Inventory.h">
+      <Filter>FortniteGame\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FortniteGame\Abilities\Interactions.h">
+      <Filter>FortniteGame\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FortniteGame\Abilities\PlayerManager.h">
+      <Filter>FortniteGame\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FortniteGame\Abilities\Emote.h">
+      <Filter>FortniteGame\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FortniteGame\Abilities\Aircraft.h">
+      <Filter>FortniteGame\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FortniteGame\ItemDefinitions\ItemDefinitions.h">
+      <Filter>FortniteGame\ItemDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="FortniteGame\SDKS\4_1\SDK.hpp">
+      <Filter>FortniteGame\SDKS\4_1</Filter>
+    </ClInclude>
+    <ClInclude Include="FortniteGame\SDKS\3_5\SDK.hpp">
+      <Filter>FortniteGame\SDKS\3_5</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="FortniteGame\SDKS\5_21\SDK.hpp">
+      <Filter>FortniteGame\SDKS\5_21</Filter>
+    </ClInclude>
+    <ClInclude Include="FortniteGame\SDKS\4_5\SDK.hpp">
+      <Filter>FortniteGame\SDKS\4_5</Filter>
+    </ClInclude>
+    <ClInclude Include="FortniteGame\SDKS\7_3\SDK.hpp">
+      <Filter>FortniteGame\SDKS\7_3</Filter>
+    </ClInclude>
+    <ClInclude Include="FortniteGame\SDKS\7_3\SDK\FN_Engine_classes.hpp">
+      <Filter>FortniteGame\SDKS\7_3\SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="detours\Detours.lib">
+      <Filter>detours</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
